@@ -22,7 +22,6 @@ function read(){
     var read ="";
 
     $.ajax({
-
            method:'POST',
            url:'read.php',
            data: {read:read},
@@ -31,7 +30,6 @@ function read(){
             $("#t_body").html(data);
 
            }
-
     });
 
 }
